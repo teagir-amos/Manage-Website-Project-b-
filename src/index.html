@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Manage Website</title>
+  </head>
+  <body
+    class="font-Arimo bg-[url(./background.svg)] z-10 bg-right-top bg-no-repeat"
+    id="body"
+  >
+    <nav
+      id="nav"
+      class="bg-VeryPaleRed-50 flex h-20 justify-between pt-8 pl-5 pr-5 lg:justify-around fixed w-full"
+    >
+      <div class="lg:pr-25">
+        <!--logo-->
+        <img src="./logo.svg" alt="logo" />
+      </div>
+      <div
+        class="lg:flex lg:flex-row lg:h-fit lg:gap-10 sm:z-9 sm:items-center sm:w-full sm:h-100 sm:flex-col lg:w-fit sm:gap-10 sm:pt-10 lg:pt-0 sm:hidden duration-500 ease-in-out"
+        id="links"
+      >
+        <!--links-->
+        <a
+          href="#"
+          class="text-darkblue-50 font-bold hover:text-darkGrayishBlue-50 cursor-pointer"
+          >Pricing</a
+        >
+        <a
+          href="#"
+          class="text-darkblue-50 font-bold hover:text-darkGrayishBlue-50 cursor-pointer"
+          >Product</a
+        >
+        <a
+          href="#"
+          class="text-darkblue-50 font-bold hover:text-darkGrayishBlue-50 cursor-pointer"
+          >About us</a
+        >
+        <a
+          href="#"
+          class="text-darkblue-50 font-bold hover:text-darkGrayishBlue-50 cursor-pointer"
+          >Careers</a
+        >
+        <a
+          href="#"
+          class="text-darkblue-50 font-bold hover:text-darkGrayishBlue-50 cursor-pointer"
+          >Community</a
+        >
+      </div>
+      <div class="sm:hidden lg:flex">
+        <button
+          class="flex items-center bg-brightred-50 h-10 p-5 rounded-full text-white hover:text-darkGrayishBlue-50 hover:bg-VeryPaleRed-50 cursor-pointer hover:"
+        >
+          Get Started
+        </button>
+      </div>
+      <div class="lg:hidden" id="options">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </div>
+      <div class="lg:hidden sm:hidden" id="cancel">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+    </nav>
+
+    <!--Container-->
+    <div class="container antialiased w-full min-w-full">
+      <!--assemble-->
+      <div
+        class="flex justify-center items-center flex-col-reverse pt-15 lg:flex-row lg:justify-around"
+      >
+        <div class="pt-5">
+          <h1
+            class="font-extrabold text-5xl text-center text-darkblue-50 ml-2 lg:w-150 lg:text-6xl"
+          >
+            Bring everyone together to build better products.
+          </h1>
+          <p6
+            class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-10 pl-3 lg:w-90 lg:ml-6"
+          >
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p6>
+          <div
+            class="flex justify-center items-center lg:justify-start mt-10 w-full lg:ml-9"
+          >
+            <button
+              class="flex justify-center items-center bg-brightred-50 h-10 p-5 rounded-full text-white hover:text-darkGrayishBlue-50 hover:bg-VeryPaleRed-50 cursor-pointer hover:"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="flex sm:pt-5">
+          <img src="./illustration-intro.svg" />
+        </div>
+      </div>
+
+      <!--why-->
+      <div class="pt-20 lg:flex lg:justify-around">
+        <!--difference-->
+        <div class="flex justify-centre items-center flex-col">
+          <h2
+            class="font-extrabold text-5xl text-center text-darkblue-50 flex justify-center items-center lg:w-120"
+          >
+            What's different about Manage?
+          </h2>
+          <p
+            class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-10 pl-3 lg:w-120 lg:pr-3"
+          >
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+
+        <!--reasons-->
+        <div class="mt-10">
+          <!--Track-progress-->
+          <div class="">
+            <h4 class="bg-VeryPaleRed-50 flex gap-5 ml-3 h-8 lg:ml-5">
+              <span
+                class="bg-brightred-50 w-15 flex justify-center items-center text-white rounded-full"
+                >01</span
+              >
+              <span
+                class="flex justify-center items-center text-darkblue-50 text-xl"
+                >Track company's wide progress</span
+              >
+            </h4>
+            <p
+              class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-5 pl-3 lg:ml-21 lg:w-150"
+            >
+              See how your day-to-day tasks fit into the wider vision.Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the biggger picture
+              again.
+            </p>
+          </div>
+
+          <!--Advanced-built-in-reports-->
+          <div class="mt-10">
+            <h4 class="bg-VeryPaleRed-50 flex gap-5 ml-3 h-8 lg:ml-5">
+              <span
+                class="bg-brightred-50 w-15 flex justify-center items-center text-white rounded-full"
+                >02</span
+              ><span
+                class="flex justify-center items-center text-darkblue-50 text-xl"
+                >Advanced-built-in-reports</span
+              >
+            </h4>
+            <p
+              class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-5 pl-3 lg:ml-21 lg:w-150"
+            >
+              Set internal delivery estimates and track progress toward company
+              goals. Our cutomizable dashboard helps you build out the reports
+              you need to keep the key stakeholders informed
+            </p>
+          </div>
+
+          <!--Organised-->
+          <div class="mt-10">
+            <h4 class="bg-VeryPaleRed-50 flex gap-5 ml-3 h-8 lg:ml-5">
+              <span
+                class="bg-brightred-50 w-15 flex justify-center items-center text-white rounded-full"
+                >03</span
+              >
+              <span
+                class="flex justify-center items-center text-darkblue-50 text-xl"
+                >Everything you need in one place</span
+              >
+            </h4>
+            <p
+              class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-5 pl-3 lg:ml-21 lg:w-150"
+            >
+              Stop jumping from one service to another to communicate, store
+              files, track tasks and share documents. Manage offers a all-in-one
+              team productivity solution.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Testimonials-->
+      <div class="mt-20">
+        <h4
+          class="font-extrabold text-5xl text-center text-darkblue-50 flex justify-center items-center mb-10"
+        >
+          What they've said
+        </h4>
+        <div class="swiper mr-3 flex grow-1">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper flex lg:gap-2 w-fit pb-3">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="bg-slate-200 h-60 ml-2">
+                <div class="flex justify-center">
+                  <img
+                    src="./avatar-anisha.png"
+                    alt="avatar"
+                    class="h-20 w-20"
+                  />
+                </div>
+                <h4
+                  class="flex justify-center items-center pt-3 font-bold text-md text-darkblue-50"
+                >
+                  Anisha Li
+                </h4>
+                <p
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                >
+                  "Manage has supercharged our team's workflow. The ability to
+                  maintain visibility on larger milestones at all times keeps
+                  everyone motivated."
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-slate-200 h-60">
+                <div class="flex justify-center">
+                  <img src="./avatar-ali.png" alt="avatar" class="h-20 w-20" />
+                </div>
+                <h4
+                  class="flex justify-center items-center pt-3 font-bold text-md text-darkblue-50"
+                >
+                  Ali Bravo
+                </h4>
+                <p
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                >
+                  "We have been able to cancel so many other subscriptions since
+                  using Manage. There is no more cross-channel confusion and
+                  everyone is much more focused."
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-slate-200 h-60">
+                <div class="flex justify-center">
+                  <img
+                    src="./avatar-richard.png"
+                    alt="avatar"
+                    class="h-20 w-20"
+                  />
+                </div>
+                <h4
+                  class="flex justify-center items-center pt-3 font-bold text-md text-darkblue-50"
+                >
+                  Richard Watts
+                </h4>
+                <p
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                >
+                  "Manage allows us to provide structure and process. It keeps
+                  us organized and focused. I can't stop recommending them to
+                  everyone I talk to!"
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-slate-200 h-60">
+                <div class="flex justify-center">
+                  <img
+                    src="./avatar-shanai.png"
+                    alt="avatar"
+                    class="h-20 w-20"
+                  />
+                </div>
+                <h4
+                  class="flex justify-center items-center pt-3 font-bold text-md text-darkblue-50"
+                >
+                  Shanai Gough
+                </h4>
+                <p
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                >
+                  "Their software allows us to track, manage and collaborate on
+                  our projects from anywhere. It keeps the whole team in-sync
+                  without being intrusive."
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-center items-center lg:justify-center mt-10 w-full"
+      >
+        <button
+          class="flex justify-center items-center bg-brightred-50 h-10 p-5 rounded-full text-white hover:text-darkGrayishBlue-50 hover:bg-VeryPaleRed-50 cursor-pointer hover:"
+        >
+          Get Started
+        </button>
+      </div>
+
+      <!--simplify-->
+      <div class="bg-brightred-50 mt-10 lg:flex lg:justify-between">
+        <div class="flex pt-10 justify-center items-center lg:ml-50">
+          <p
+            class="text-4xl text-white font-bold flex items-center ml-3 lg:w-120 lg:pb-6"
+          >
+            Simplify how your team works today.
+          </p>
+        </div>
+        <div class="flex justify-center items-center mt-10 w-full">
+          <button
+            class="flex justify-center items-center mb-10 text-darkGrayishBlue-50 hover:text-brightred-50 bg-VeryPaleRed-50 h-10 p-5 rounded-full hover:bg-VeryPaleRed-50 cursor-pointer"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+
+      <!--footer-->
+      <div
+        class="bg-darkblue-50 pt-10 flex flex-col-reverse lg:grid grid-flow-row auto-rows-max"
+      >
+        <!--logo-->
+        <div class="pt-5 flex justify-center pb-5">
+          <img src="./logo1.svg" alt="logo" />
+        </div>
+        <!--social-icons-->
+        <div class="mt-10">
+          <div class="flex justify-evenly items-center">
+            <?xml version="1.0" ?><svg
+              class="bi bi-facebook"
+              height="25"
+              fill="#fff"
+              viewBox="0 0 16 16"
+              width="25"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+
+            <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg
+              height="10%"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="10%"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:serif="http://www.serif.com/"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#fff"
+            >
+              <g>
+                <path
+                  d="M255.111,291.623c0.894,-2.333 1.343,-6.148 1.343,-11.442l0,-22.304c0,-5.137 -0.449,-8.892 -1.343,-11.268c-0.895,-2.373 -2.472,-3.561 -4.729,-3.561c-2.18,0 -3.719,1.188 -4.613,3.561c-0.895,2.376 -1.342,6.131 -1.342,11.268l0,22.304c0,5.294 0.427,9.109 1.285,11.442c0.854,2.336 2.411,3.503 4.67,3.503c2.257,0 3.834,-1.167 4.729,-3.503Zm-18.098,11.211c-3.233,-2.177 -5.53,-5.566 -6.89,-10.16c-1.363,-4.591 -2.043,-10.703 -2.043,-18.332l0,-10.392c0,-7.707 0.777,-13.897 2.334,-18.566c1.557,-4.671 3.988,-8.077 7.299,-10.218c3.308,-2.14 7.648,-3.211 13.02,-3.211c5.293,0 9.535,1.09 12.727,3.27c3.191,2.179 5.527,5.586 7.007,10.216c1.477,4.634 2.218,10.802 2.218,18.509l0,10.392c0,7.629 -0.721,13.761 -2.16,18.392c-1.441,4.633 -3.777,8.018 -7.007,10.158c-3.231,2.141 -7.609,3.211 -13.136,3.211c-5.684,0 -10.141,-1.09 -13.369,-3.269Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M487.068,244.385c-0.816,1.012 -1.363,2.667 -1.634,4.962c-0.274,2.297 -0.407,5.781 -0.407,10.452l0,5.139l11.791,0l0,-5.139c0,-4.593 -0.155,-8.077 -0.466,-10.452c-0.312,-2.373 -0.875,-4.045 -1.692,-5.02c-0.819,-0.973 -2.084,-1.459 -3.796,-1.459c-1.714,0 -2.978,0.506 -3.796,1.517Zm-2.041,30.128l0,3.62c0,4.594 0.133,8.037 0.407,10.333c0.271,2.297 0.835,3.972 1.693,5.023c0.857,1.05 2.178,1.577 3.971,1.577c2.411,0 4.067,-0.936 4.962,-2.804c0.894,-1.869 1.381,-4.981 1.459,-9.342l13.896,0.817c0.078,0.625 0.117,1.48 0.117,2.569c0,6.618 -1.809,11.562 -5.43,14.831c-3.618,3.269 -8.739,4.904 -15.355,4.904c-7.939,0 -13.507,-2.49 -16.698,-7.474c-3.193,-4.98 -4.789,-12.687 -4.789,-23.12l0,-12.496c0,-10.742 1.655,-18.583 4.964,-23.528c3.308,-4.944 8.972,-7.416 16.991,-7.416c5.525,0 9.769,1.012 12.727,3.037c2.957,2.025 5.041,5.177 6.248,9.458c1.207,4.282 1.81,10.199 1.81,17.749l0,12.262l-26.973,0Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M197.773,273.172l-18.333,-66.209l15.997,0l6.422,30.009c1.636,7.398 2.841,13.703 3.62,18.917l0.467,0c0.545,-3.736 1.752,-10.001 3.62,-18.8l6.656,-30.126l15.998,0l-18.567,66.209l0,31.763l-15.88,0l0,-31.763Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M324.715,233.355l0,71.58l-12.612,0l-1.402,-8.757l-0.349,0c-3.426,6.617 -8.565,9.925 -15.414,9.925c-4.749,0 -8.252,-1.556 -10.51,-4.67c-2.258,-3.113 -3.386,-7.98 -3.386,-14.596l0,-53.482l16.115,0l0,52.546c0,3.194 0.351,5.471 1.051,6.831c0.7,1.364 1.868,2.045 3.503,2.045c1.402,0 2.744,-0.428 4.028,-1.285c1.285,-0.857 2.238,-1.945 2.862,-3.269l0,-56.868l16.114,0Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M407.371,233.355l0,71.58l-12.611,0l-1.402,-8.757l-0.348,0c-3.429,6.617 -8.566,9.925 -15.416,9.925c-4.748,0 -8.251,-1.556 -10.509,-4.67c-2.258,-3.113 -3.386,-7.98 -3.386,-14.596l0,-53.482l16.114,0l0,52.546c0,3.194 0.35,5.471 1.05,6.831c0.702,1.364 1.87,2.045 3.504,2.045c1.402,0 2.745,-0.428 4.029,-1.285c1.284,-0.857 2.237,-1.945 2.861,-3.269l0,-56.868l16.114,0Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M368.503,219.926l-15.998,0l0,85.009l-15.763,0l0,-85.009l-15.998,0l0,-12.962l47.759,0l0,12.962Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M445.934,273.995c0,5.217 -0.217,9.304 -0.644,12.261c-0.428,2.96 -1.148,5.062 -2.16,6.305c-1.012,1.246 -2.377,1.869 -4.086,1.869c-1.326,0 -2.551,-0.311 -3.679,-0.934c-1.13,-0.623 -2.043,-1.557 -2.745,-2.803l0,-40.636c0.545,-1.945 1.479,-3.542 2.803,-4.788c1.324,-1.243 2.762,-1.868 4.32,-1.868c1.635,0 2.899,0.643 3.795,1.926c0.894,1.285 1.518,3.445 1.869,6.483c0.351,3.035 0.527,7.355 0.527,12.96l0,9.225Zm14.77,-29.197c-0.975,-4.514 -2.551,-7.784 -4.73,-9.81c-2.18,-2.022 -5.177,-3.035 -8.991,-3.035c-2.958,0 -5.721,0.838 -8.29,2.511c-2.569,1.674 -4.555,3.873 -5.956,6.597l-0.118,0l0.001,-37.717l-15.529,0l0,101.59l13.31,0l1.636,-6.772l0.349,0c1.245,2.413 3.113,4.32 5.605,5.722c2.491,1.401 5.256,2.102 8.292,2.102c5.448,0 9.457,-2.512 12.027,-7.532c2.569,-5.022 3.854,-12.863 3.854,-23.53l0,-11.325c0,-8.018 -0.488,-14.285 -1.46,-18.801Z"
+                  style="fill-rule: nonzero"
+                />
+                <path
+                  d="M159.875,216.698c-1.878,-7.026 -7.41,-12.558 -14.436,-14.436c-12.735,-3.412 -63.796,-3.412 -63.796,-3.412c0,0 -51.061,0 -63.796,3.412c-7.024,1.878 -12.558,7.41 -14.436,14.436c-3.411,12.734 -3.411,39.303 -3.411,39.303c0,0 0,26.568 3.411,39.301c1.878,7.026 7.412,12.56 14.436,14.437c12.735,3.411 63.796,3.411 63.796,3.411c0,0 51.061,0 63.796,-3.411c7.026,-1.877 12.558,-7.411 14.436,-14.437c3.411,-12.733 3.411,-39.301 3.411,-39.301c0,0 0,-26.569 -3.411,-39.303Zm-94.561,63.796l0,-48.987l42.422,24.494l-42.422,24.493Z"
+                  style="fill-rule: nonzero"
+                />
+              </g>
+            </svg>
+
+            <?xml version="1.0" ?><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 1200 1227"
+              fill="#fff"
+            >
+              <g clip-path="url(#clip0_1_2)">
+                <path
+                  d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                  fill="#fff"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2">
+                  <rect width="1200" height="1227" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg
+              enable-background="new 0 0 56.693 56.693"
+              height="30"
+              id="Layer_1"
+              version="1.1"
+              viewBox="0 0 56.693 56.693"
+              width="30"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#fff"
+            >
+              <path
+                d="M30.374,4.622c-13.586,0-20.437,9.74-20.437,17.864c0,4.918,1.862,9.293,5.855,10.922c0.655,0.27,1.242,0.01,1.432-0.715  c0.132-0.5,0.445-1.766,0.584-2.295c0.191-0.717,0.117-0.967-0.412-1.594c-1.151-1.357-1.888-3.115-1.888-5.607  c0-7.226,5.407-13.695,14.079-13.695c7.679,0,11.898,4.692,11.898,10.957c0,8.246-3.649,15.205-9.065,15.205  c-2.992,0-5.23-2.473-4.514-5.508c0.859-3.623,2.524-7.531,2.524-10.148c0-2.34-1.257-4.292-3.856-4.292  c-3.058,0-5.515,3.164-5.515,7.401c0,2.699,0.912,4.525,0.912,4.525s-3.129,13.26-3.678,15.582  c-1.092,4.625-0.164,10.293-0.085,10.865c0.046,0.34,0.482,0.422,0.68,0.166c0.281-0.369,3.925-4.865,5.162-9.359  c0.351-1.271,2.011-7.859,2.011-7.859c0.994,1.896,3.898,3.562,6.986,3.562c9.191,0,15.428-8.379,15.428-19.595  C48.476,12.521,41.292,4.622,30.374,4.622z"
+              />
+            </svg>
+
+            <?xml version="1.0" encoding="utf-8"?>
+            <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg
+              height="30"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+              version="1.1"
+              viewBox="0 0 600 600"
+              width="30"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:serif="http://www.serif.com/"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              fill="#fff"
+            >
+              <g transform="matrix(1.01619,0,0,1.01619,44,43.8384)">
+                <path
+                  d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z"
+                  style="fill-rule: nonzero"
+                  fill="#fff"
+                />
+                <path
+                  d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z"
+                  style="fill: #fff; fill-rule: nonzero"
+                />
+                <path
+                  d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z"
+                  style="fill: #fff; fill-rule: nonzero"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+        <!--links-->
+        <div class="grid grid-cols-2 justify-items-center gap-5 pt-10 lg:p-5">
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Products</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >About Us</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Carrers</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Community</a
+          >
+          <a
+            href="#"
+            class="text-white text-lg hover:text-brightred-50 cursor-pointer"
+            >Privacy Policy</a
+          >
+        </div>
+        <!--Inbox-Updates-->
+        <div class="flex justify-center items-center gap-3 lg:pt-10">
+          <input
+            type="text"
+            placeholder="Updates in your inbox"
+            class="bg-VeryLightGray-50 h-10 w-60 rounded-full p-2"
+            id="email-field"
+            spellcheck="false"
+            onkeyup="validateEmail()"
+          />
+          <button
+            class="h-10 w-20 rounded-full text-white bg-brightred-50 hover:text-darkGrayishBlue-50 hover:bg-VeryPaleRed-50 cursor-pointer"
+            id="Go"
+          >
+            Go
+          </button>
+        </div>
+        <span
+          id="email-error"
+          class="flex ml-70 sm:pb-3 lg:ml-220 lg:pt-3"
+        ></span>
+      </div>
+      <!--copyright-->
+      <p
+        class="flex justify-center pt-5 pb-5 bg-darkblue-50 text-white lg:pt-10"
+      >
+        <span
+          ><img
+            src="./copyright-symbol.png"
+            alt="copyright"
+            class="h-6.5 w-6 bg-white rounded-full ml-0.5" /></span
+        ><span class="ml-2" id="new">2023. </span>All rights reserved.
+      </p>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./output.js"></script>
+</html>

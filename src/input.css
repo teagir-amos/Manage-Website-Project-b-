@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-Arimo: "Arimo", sans-serif;
+  --breakpoint-sm: 300px;
+  --color-brightred-50: hsl(12, 88%, 59%);
+  --color-darkblue-50: hsl(228, 39%, 23%);
+  --color-darkGrayishBlue-50: hsl(227, 12%, 61%);
+  --color-VeryDarkBlue-50: hsl(233, 12%, 13%);
+  --color-VeryPaleRed-50: hsl(13, 100%, 96%);
+  --color-VeryLightGray-50: hsl(0, 0%, 98%);
+  --display-none: "hidden";
+  --bgColor-50: hsl(12, 88%, 59%);
+}
+.swiper {
+  width: ;
+  height: ;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0;
+}
+
+.swiper-pagination {
+  color: orange;
+}
