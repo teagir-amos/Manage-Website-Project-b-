@@ -23,9 +23,25 @@
         <img src="./logo.svg" alt="logo" />
       </div>
       <div
-        class="lg:flex lg:flex-row lg:h-fit lg:gap-10 sm:z-9 sm:items-center sm:w-full sm:h-100 sm:flex-col lg:w-fit sm:gap-10 sm:pt-10 lg:pt-0 sm:hidden duration-500 ease-in-out"
+        class="lg:flex lg:flex-row lg:h-fit lg:gap-10 sm:z-9 sm:items-center sm:mt-10 sm:w-300 sm:h-100 sm:flex-col lg:w-fit sm:gap-10 sm:pt-2 lg:pt-0 sm:hidden duration-500 ease-in-out"
         id="links"
       >
+        <div class="lg:hidden sm:hidden flex ml-70" id="cancel">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </div>
         <!--links-->
         <a
           href="#"
@@ -73,22 +89,6 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-      </div>
-      <div class="lg:hidden sm:hidden" id="cancel">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="size-8"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18 18 6M6 6l12 12"
           />
         </svg>
       </div>
@@ -221,10 +221,10 @@
         </h4>
         <div class="swiper mr-3 flex grow-1">
           <!-- Additional required wrapper -->
-          <div class="swiper-wrapper flex lg:gap-2 w-fit pb-3">
+          <div class="swiper-wrapper flex lg:gap-2 w-fit pb-10">
             <!-- Slides -->
             <div class="swiper-slide">
-              <div class="bg-slate-200 h-fit ml-2">
+              <div class="bg-slate-200 h-fit ml-2 mr-2">
                 <div class="flex justify-center">
                   <img
                     src="./avatar-anisha.png"
@@ -238,7 +238,7 @@
                   Anisha Li
                 </h4>
                 <p
-                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2 pb-3"
                 >
                   "Manage has supercharged our team's workflow. The ability to
                   maintain visibility on larger milestones at all times keeps
@@ -247,7 +247,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="bg-slate-200 h-fit">
+              <div class="bg-slate-200 h-fit ml-2 mr-2">
                 <div class="flex justify-center">
                   <img src="./avatar-ali.png" alt="avatar" class="h-20 w-20" />
                 </div>
@@ -257,7 +257,7 @@
                   Ali Bravo
                 </h4>
                 <p
-                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2 pb-3"
                 >
                   "We have been able to cancel so many other subscriptions since
                   using Manage. There is no more cross-channel confusion and
@@ -266,7 +266,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="bg-slate-200 h-fit">
+              <div class="bg-slate-200 h-fit ml-2 mr-2">
                 <div class="flex justify-center">
                   <img
                     src="./avatar-richard.png"
@@ -280,7 +280,7 @@
                   Richard Watts
                 </h4>
                 <p
-                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2 pb-3"
                 >
                   "Manage allows us to provide structure and process. It keeps
                   us organized and focused. I can't stop recommending them to
@@ -289,7 +289,7 @@
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="bg-slate-200 h-fit">
+              <div class="bg-slate-200 h-fit ml-2 mr-2">
                 <div class="flex justify-center">
                   <img
                     src="./avatar-shanai.png"
@@ -303,7 +303,7 @@
                   Shanai Gough
                 </h4>
                 <p
-                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2"
+                  class="flex justify-center items-center text-lg text-darkGrayishBlue-50 pt-3 ml-2 pb-3"
                 >
                   "Their software allows us to track, manage and collaborate on
                   our projects from anywhere. It keeps the whole team in-sync
@@ -313,7 +313,7 @@
             </div>
           </div>
           <!-- If we need pagination -->
-          <div class="swiper-pagination pt-10"></div>
+          <div class="swiper-pagination"></div>
 
           <!-- If we need navigation buttons -->
           <div class="swiper-button-prev"></div>
