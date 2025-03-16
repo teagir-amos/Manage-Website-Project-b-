@@ -2118,6 +2118,11 @@
       display: none;
     }
   }
+  .sm\:h-15 {
+    @media (width >= 300px) {
+      height: calc(var(--spacing) * 15);
+    }
+  }
   .sm\:h-100 {
     @media (width >= 300px) {
       height: calc(var(--spacing) * 100);
@@ -2211,6 +2216,11 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:h-20 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 20);
     }
   }
   .lg\:h-fit {
